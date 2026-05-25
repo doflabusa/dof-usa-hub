@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>DOF USA HUB v7</title>
+<title>DOF USA HUB</title>
 <style>
 :root {
   --bg:#f6f8fc; --card:#fff; --text:#101828; --muted:#667085; --line:#e6eaf2;
@@ -102,33 +102,33 @@ table{width:100%;border-collapse:collapse;font-size:13px} th,td{text-align:left;
       <a data-page="approvals">✔ Approvals</a>
       <a data-page="settings">⚙ Settings</a>
     </nav>
-    <div class="sideCard"><strong>HQ Timezone</strong><span>Anaheim, CA · America/Los_Angeles<br>Timezone automatically switches between PST and PDT.</span></div>
+    <div class="sideCard"><strong>HQ Timezone</strong><span>- · America/Los_Angeles<br>Timezone automatically switches between PST and PDT.</span></div>
   </aside>
 
   <main class="main">
     <header class="topbar">
       <div class="title"><h1 id="pageTitle">Dashboard</h1><p id="pageSubtitle">Mission control for attendance, tasks, schedules, and field work.</p></div>
-      <div class="topRight"><input class="search" placeholder="Search tasks, employees, customers..." /><div class="profile"><div class="avatar">J</div><div><div style="font-weight:850;">Justin Yoo</div><small>Admin</small></div></div></div>
+      <div class="topRight"><input class="search" placeholder="Search tasks, employees, customers..." /><div class="profile"><div class="avatar">J</div><div><div style="font-weight:850;">Admin User</div><small>Admin</small></div></div></div>
     </header>
 
     <section id="dashboard" class="page active">
       <section class="kpis">
-        <div class="card kpi"><div class="kpiTop"><div><div class="kpiLabel">Today's Tasks</div><div class="kpiValue">7</div></div><div class="icon blue">✅</div></div><div class="kpiSub">3 due today · 1 overdue</div></div>
-        <div class="card kpi"><div class="kpiTop"><div><div class="kpiLabel">Clocked In</div><div class="kpiValue">8</div></div><div class="icon green">⏱</div></div><div class="kpiSub">Anaheim, NY, TX timezones detected</div></div>
-        <div class="card kpi"><div class="kpiTop"><div><div class="kpiLabel">Active Projects</div><div class="kpiValue">12</div></div><div class="icon orange">📂</div></div><div class="kpiSub">Installations · Training · Demos</div></div>
-        <div class="card kpi"><div class="kpiTop"><div><div class="kpiLabel">Upcoming Trips</div><div class="kpiValue">2</div></div><div class="icon purple">✈️</div></div><div class="kpiSub">New York · Hawaii</div></div>
+        <div class="card kpi"><div class="kpiTop"><div><div class="kpiLabel">Today's Tasks</div><div class="kpiValue">0</div></div><div class="icon blue">✅</div></div><div class="kpiSub">No tasks yet</div></div>
+        <div class="card kpi"><div class="kpiTop"><div><div class="kpiLabel">Clocked In</div><div class="kpiValue">0</div></div><div class="icon green">⏱</div></div><div class="kpiSub">No active clock-ins</div></div>
+        <div class="card kpi"><div class="kpiTop"><div><div class="kpiLabel">Active Projects</div><div class="kpiValue">0</div></div><div class="icon orange">📂</div></div><div class="kpiSub">No active projects</div></div>
+        <div class="card kpi"><div class="kpiTop"><div><div class="kpiLabel">Upcoming Trips</div><div class="kpiValue">0</div></div><div class="icon purple">✈️</div></div><div class="kpiSub">No upcoming trips</div></div>
       </section>
       <div class="layout">
         <section>
           <div class="grid2">
-            <div class="card"><div class="sectionHead"><h2>Attendance & Location</h2><button class="btnBlue">Clock Out</button></div><div class="clockPanel"><div class="clockBox"><div class="clockTime">8:46 AM</div><div class="clockMeta">Checked in · Anaheim Office<br>Local Timezone: Auto-detected (PDT · UTC -7)<br>GPS: Anaheim, California</div></div><div class="infoList"><div class="infoItem"><span>HQ Time</span><strong>8:46 AM PDT</strong></div><div class="infoItem"><span>Device</span><strong>MacBook Pro</strong></div><div class="infoItem"><span>Verification</span><span class="badge badgeGreen">GPS Verified</span></div></div></div><div style="margin-top:16px; display:flex; gap:10px; flex-wrap:wrap;"><button class="btnLight">Request Correction</button><button class="btnDark">Field Work Check-In</button><button class="btnLight">View History</button></div></div>
-            <div class="card"><div class="sectionHead"><h2>Task Assignment</h2><button class="btnBlue">+ Assign</button></div><div class="task"><div class="check"></div><div><div class="taskTitle">Prepare Hawaii FREEDOM Air invoice</div><div class="taskMeta">Assigned to Justin · Due today · Customer: Dr. Kagihara</div></div><span class="badge badgeRed">High</span></div><div class="task"><div class="check"></div><div><div class="taskTitle">NYU installation checklist</div><div class="taskMeta">Assigned to Oscar · Due May 30 · Project: NYU</div></div><span class="badge badgeBlue">Install</span></div><div class="task"><div class="check"></div><div><div class="taskTitle">Follow up with CAD-Ray</div><div class="taskMeta">Assigned to Sales Team · Due this week</div></div><span class="badge badgeOrange">Medium</span></div></div>
+            <div class="card"><div class="sectionHead"><h2>Attendance & Location</h2><button class="btnBlue">Clock Out</button></div><div class="clockPanel"><div class="clockBox"><div class="clockTime">--:--</div><div class="clockMeta">Not clocked in<br>Local timezone will be detected after clock-in<br>Location will be recorded if enabled</div></div><div class="infoList"><div class="infoItem"><span>HQ Time</span><strong>--:-- PDT</strong></div><div class="infoItem"><span>Device</span><strong>-</strong></div><div class="infoItem"><span>Verification</span><span class="badge badgeOrange">Not Started</span></div></div></div><div style="margin-top:16px; display:flex; gap:10px; flex-wrap:wrap;"><button class="btnLight">Request Correction</button><button class="btnDark">Field Work Check-In</button><button class="btnLight">View History</button></div></div>
+            <div class="card"><div class="sectionHead"><h2>Task Assignment</h2><button class="btnBlue">+ Assign</button></div><div class="task"><div class="check"></div><div><div class="taskTitle">No task assigned</div><div class="taskMeta">Create or assign a new task to get started.</div></div><span class="badge badgeBlue">Empty</span></div><div class="task"><div class="check"></div><div><div class="taskTitle">No assigned installation task</div><div class="taskMeta">No project has been assigned yet.</div></div><span class="badge badgeBlue">Empty</span></div><div class="task"><div class="check"></div><div><div class="taskTitle">No follow-up task</div><div class="taskMeta">No sales task has been assigned yet.</div></div><span class="badge badgeBlue">Empty</span></div></div>
           </div>
           <div class="card"><div class="sectionHead"><h2 id="calendarTitle">May 2026 Calendar</h2><div style="display:flex;gap:10px;"><button class="btnLight" onclick="changeMonth(-1)">← Previous</button><button class="btnLight" onclick="changeMonth(1)">Next →</button><button class="btnBlue">+ Event</button></div></div><div class="monthCalendar" id="calendarGrid"></div></div>
         </section>
         <aside class="rightCol">
           <div class="card"><div class="sectionHead"><h2>Quick Actions</h2></div><div class="quickAction"><button>+ Task</button><button>+ Event</button><button>Clock In</button><button>Field Work</button></div></div>
-          <div class="card form"><h2>Create Task</h2><label>Task Title</label><input placeholder="Example: Follow up with NYU"><label>Assign To</label><select><option>Oscar Condor</option><option>Sales Team</option><option>Justin Yoo</option></select><label>Due Date</label><input type="date"><label>Priority</label><select><option>High</option><option>Medium</option><option>Low</option></select><button class="btnBlue" style="width:100%; margin-top:12px;">Assign Task</button></div>
+          <div class="card form"><h2>Create Task</h2><label>Task Title</label><input placeholder="Example: Follow up with NYU"><label>Assign To</label><select><option>-</option><option>Sales Team</option><option>Admin User</option></select><label>Due Date</label><input type="date"><label>Priority</label><select><option>High</option><option>Medium</option><option>Low</option></select><button class="btnBlue" style="width:100%; margin-top:12px;">Assign Task</button></div>
         </aside>
       </div>
     </section>
@@ -137,24 +137,23 @@ table{width:100%;border-collapse:collapse;font-size:13px} th,td{text-align:left;
       <div class="card">
         <div class="sectionHead"><h2>Attendance Records</h2><div class="adminOnly"><button class="btnLight" onclick="exportCSV()">Export CSV</button><button class="btnBlue" onclick="exportCSV()">Export Excel-Compatible File</button></div></div><div class="notice nonAdminOnly" style="display:none;">Export is available to Admin users only.</div>
         <div class="notice">Admin mode can export employee time records as a CSV file that opens in Excel. Each record keeps local time, timezone, HQ converted time, location, device, and approval status.</div>
-        <table id="attendanceTable"><tr><th>Employee</th><th>Date</th><th>Clock In</th><th>Clock Out</th><th>Total Hours</th><th>Local Timezone</th><th>HQ Timezone</th><th>Location</th><th>Status</th></tr>
-          <tr><td>Oscar Condor</td><td>2026-05-27</td><td>10:14 AM</td><td>4:45 PM</td><td>6.5</td><td>EDT</td><td>PDT</td><td>Queens, NY</td><td>Approved</td></tr>
-          <tr><td>Employee A</td><td>2026-05-27</td><td>8:03 AM</td><td>4:02 PM</td><td>8.0</td><td>PDT</td><td>PDT</td><td>Anaheim, CA</td><td>Approved</td></tr>
-          <tr><td>Employee B</td><td>2026-05-27</td><td>9:15 AM</td><td>-</td><td>-</td><td>CDT</td><td>PDT</td><td>Dallas, TX</td><td>Checked In</td></tr>
+        <table id="attendanceTable">
+          <tr><th>Employee</th><th>Date</th><th>Clock In</th><th>Clock Out</th><th>Total Hours</th><th>Local Timezone</th><th>HQ Timezone</th><th>Location</th><th>Status</th></tr>
+          <tr><td colspan="9" style="text-align:center;color:#667085;padding:28px;">No attendance records yet.</td></tr>
         </table>
       </div>
     </section>
 
     <section id="calendar" class="page"><div class="card"><div class="sectionHead"><h2 id="fullCalendarTitle">May 2026 Calendar</h2><div><button class="btnLight" onclick="changeMonth(-1)">← Previous</button><button class="btnLight" onclick="changeMonth(1)">Next →</button><button class="btnBlue">+ New Event</button></div></div><div class="monthCalendar" id="calendarGridFull"></div></div></section>
-    <section id="tasks" class="page"><div class="card"><div class="sectionHead"><h2>Tasks</h2><button class="btnBlue">+ Assign Task</button></div><div class="notice">Task detail page will include assignee, due date, priority, customer/project link, attachments, comments, and status tracking.</div><table><tr><th>Task</th><th>Assigned To</th><th>Due</th><th>Priority</th><th>Status</th></tr><tr><td>NYU installation checklist</td><td>Oscar</td><td>May 30</td><td>High</td><td>In Progress</td></tr><tr><td>CAD-Ray follow-up</td><td>Sales Team</td><td>This Week</td><td>Medium</td><td>To Do</td></tr></table></div></section>
-    <section id="fieldwork" class="page"><div class="card form"><h2>Field Work Check-In</h2><label>Customer / Company</label><input placeholder="NYU College of Dentistry"><label>Location</label><input placeholder="Queens, NY"><label>Detected Timezone</label><input value="Auto-detected based on location"><label>Purpose</label><textarea placeholder="Installation / Training / Demo"></textarea><button class="btnBlue">Submit Field Work</button></div></section>
+    <section id="tasks" class="page"><div class="card"><div class="sectionHead"><h2>Tasks</h2><button class="btnBlue">+ Assign Task</button></div><div class="notice">Task detail page will include assignee, due date, priority, customer/project link, attachments, comments, and status tracking.</div><table><tr><th>Task</th><th>Assigned To</th><th>Due</th><th>Priority</th><th>Status</th></tr><tr><td>No assigned installation task</td><td>Oscar</td><td>May 30</td><td>High</td><td>In Progress</td></tr><tr><td>CAD-Ray follow-up</td><td>Sales Team</td><td>This Week</td><td>Medium</td><td>To Do</td></tr></table></div></section>
+    <section id="fieldwork" class="page"><div class="card form"><h2>Field Work Check-In</h2><label>Customer / Company</label><input placeholder="NYU College of Dentistry"><label>Location</label><input placeholder="-"><label>Detected Timezone</label><input value="Auto-detected based on location"><label>Purpose</label><textarea placeholder="Installation / Training / Demo"></textarea><button class="btnBlue">Submit Field Work</button></div></section>
     <section id="leave" class="page"><div class="card"><h2>Leave Management</h2><div class="notice">Leave/PTO is kept outside the main dashboard and managed in this dedicated page.</div></div></section>
-    <section id="employees" class="page"><div class="card"><h2>Employees</h2><table><tr><th>Name</th><th>Role</th><th>Status</th><th>Location</th></tr><tr><td>Justin Yoo</td><td>Admin</td><td>Active</td><td>Anaheim, CA</td></tr><tr><td>Oscar Condor</td><td>Technical Support</td><td>Active</td><td>Field Work</td></tr></table></div></section>
+    <section id="employees" class="page"><div class="card"><h2>Employees</h2><table><tr><th>Name</th><th>Role</th><th>Status</th><th>Location</th></tr><tr><td>Admin User</td><td>Admin</td><td>Active</td><td>-</td></tr></table></div></section>
     <section id="leads" class="page"><div class="card"><h2>Sales Leads</h2><div class="notice">Future page for CDA/Lab Day leads, dealer follow-ups, demo status, and lead owner assignment.</div></div></section>
     <section id="inventory" class="page"><div class="card"><h2>Inventory</h2><div class="notice">Future page for scanners, milling machines, demo units, serial numbers, and warehouse status.</div></div></section>
     <section id="reports" class="page"><div class="card"><h2>Reports</h2><div class="notice">Future page for weekly operations reports, attendance exports, task completion, and sales activity.</div></div></section>
     <section id="users" class="page"><div class="card"><h2>User Management</h2><div class="notice">Admin creates accounts, resets passwords, assigns roles, and deactivates former employees.</div></div></section>
-    <section id="approvals" class="page"><div class="card"><h2>Approvals</h2><table><tr><th>Employee</th><th>Request</th><th>Status</th><th>Action</th></tr><tr><td>Oscar</td><td>Time Correction</td><td>Pending</td><td><button class="btnBlue">Approve</button></td></tr></table></div></section>
+    <section id="approvals" class="page"><div class="card"><h2>Approvals</h2><table><tr><th>Employee</th><th>Request</th><th>Status</th><th>Action</th></tr><tr><td colspan="4" style="text-align:center;color:#667085;padding:28px;">No pending approvals.</td></tr></table></div></section>
     <section id="settings" class="page"><div class="card"><h2>System Settings</h2><div class="notice">Timezone: America/Los_Angeles. The system displays PST/PDT automatically depending on the date.</div></div></section>
   </main>
 </div>
@@ -190,19 +189,7 @@ document.querySelectorAll(".nav a[data-page]").forEach(a => {
 });
 
 let current = new Date(2026, 4, 1);
-const events = {
-  "2026-04-10":[["Chicago Lab Day Follow-up","eventBlue"]],
-  "2026-04-18":[["Installation Prep","eventGreen"]],
-  "2026-05-11":[["CAD-Ray Follow-up","eventBlue"]],
-  "2026-05-20":[["Hawaii Invoice Due","eventOrange"]],
-  "2026-05-25":[["Hawaii Trip","eventBlue"]],
-  "2026-05-26":[["NYU Install","eventGreen"]],
-  "2026-05-27":[["Personal Event","eventGray"],["Task Due","eventOrange"]],
-  "2026-05-29":[["Boston Visit","eventBlue"]],
-  "2026-06-02":[["New York Business Trip","eventBlue"]],
-  "2026-06-06":[["Training Session","eventGreen"]],
-  "2026-06-15":[["Inventory Review","eventPurple"]]
-};
+const events = {};
 
 function renderCalendar(targetId) {
   const grid = document.getElementById(targetId);
@@ -240,9 +227,9 @@ function changeMonth(delta) {
 function exportCSV() {
   const rows = [
     ["Employee","Date","Clock In","Clock Out","Total Hours","Local Timezone","HQ Timezone","Location","Status"],
-    ["Oscar Condor","2026-05-27","10:14 AM","4:45 PM","6.5","EDT","PDT","Queens NY","Approved"],
-    ["Employee A","2026-05-27","8:03 AM","4:02 PM","8.0","PDT","PDT","Anaheim CA","Approved"],
-    ["Employee B","2026-05-27","9:15 AM","","","CDT","PDT","Dallas TX","Checked In"]
+    ["-","2026-05-27","10:14 AM","4:45 PM","6.5","EDT","PDT","Queens NY","Approved"],
+    ["-","2026-05-27","8:03 AM","4:02 PM","8.0","PDT","PDT","Anaheim CA","Approved"],
+    ["-","2026-05-27","9:15 AM","","","CDT","PDT","Dallas TX","Checked In"]
   ];
   const csv = rows.map(r => r.map(x => `"${String(x).replaceAll('"','""')}"`).join(",")).join("\n");
   const blob = new Blob([csv], {type:"text/csv;charset=utf-8;"});
